@@ -8,7 +8,7 @@
 A simple and elegant **HTML Teams Page** template for showcasing team members in a structured and visually appealing format.
 
 ## 🚀 Preview
-![Preview](images/preview.png)
+![Preview](teams/images/Screenshot 2025-03-13 190157.png)
 
 ## 📂 Folder Structure
 ```
