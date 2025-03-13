@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <section class="team-section">
+      <h2 class="section-title">Minds Behind the Project</h2>
+      <p class="section-description">
+        Meet the talented individuals who drive our vision forward.
+      </p>
+      
+      <div class="team-container">
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/Nderu.png" alt="Dr.Lawrence Nderu" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Dr. Lawrence Nderu</div>
+              <div class="profession">CEO JHUB Africa</div>
+              <div class="description">Passionate about building scalable web applications.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/GREEN DV 109.png" alt="Gikuru Joseph" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Mr. Joseph Nderitu</div>
+              <div class="profession">Full Stack software developer</div>
+              <div class="description">Creating seamless and user-friendly experiences.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/Nderu.png" alt="Dr.Lawrence Nderu" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Mr. Alex Maina</div>
+              <div class="profession">CEO JHUB Africa</div>
+              <div class="description">Passionate about building scalable web applications.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/Nderu.png" alt="Dr.Lawrence Nderu" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Mr. Boniface Mwangi</div>
+              <div class="profession">Front-end Developer</div>
+              <div class="description">Passionate about building scalable web applications.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/GREEN DV 108.png" alt="Loren Odhiambo" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Mr. Loren Odhiambo</div>
+              <div class="profession">UI/Ux Designer</div>
+              <div class="description">Ensuring smooth workflow and project success.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="team-member">
+          <div class="card">
+            <div class="image-container">
+              <img src="images/kairu.png" alt="Ouma Felix" />
+              <div class="circle"></div>
+            </div>
+            <div class="details">
+              <div class="name">Mr. Felix Ouma</div>
+              <div class="profession">Data Scientist</div>
+              <div class="description">Turning data into meaningful insights.</div>
+              <div class="contacts">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<style>
+
+    .team-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 20px;
+        text-align: center;
+      }
+    
+      .section-title {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: rgb(9, 125, 167);
+      }
+    
+      .section-description {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 40px;
+      }
+    .team-container {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 100px;
+        flex-wrap: wrap;
+        font-family: "Montserrat", sans-serif;
+      }
+      
+      .team-member {
+        flex: 1 1 calc(33.333% - 36px); /* 3 cards per row with spacing */
+        max-width: calc(33.333% - 36px); /* Prevent cards from growing beyond 3 per row */
+      }
+      
+      @media (max-width: 1024px) {
+        .team-member {
+          flex: 1 1 calc(50% - 36px); /* 2 cards per row on medium screens */
+          max-width: calc(50% - 36px);
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .team-member {
+          flex: 1 1 100%; /* 1 card per row on smaller screens */
+          max-width: 100%;
+        }
+      }
+      
+  .team-member .card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 300ms ease-in-out;
+  }
+
+  .team-member:hover .card {
+    transform: scale(1.05);
+  }
+
+  .team-member .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .team-member img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .team-member .image-container .circle {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #efefef;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: background 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .team-member:nth-child(1):hover .image-container .circle { background: #f59393; }
+  .team-member:nth-child(2):hover .image-container .circle { background: #cbf593; }
+  .team-member:nth-child(3):hover .image-container .circle { background: #93f5f2; }
+  .team-member:nth-child(4):hover .image-container .circle { background: #9a93f5; }
+
+  .team-member .details {
+    margin-top: 16px;
+  }
+
+  .team-member .name {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .team-member .profession {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+
+  .team-member .description {
+    font-size: 13px;
+    color: #777;
+    margin-top: 8px;
+  }
+
+  .contacts {
+    margin-top: 12px;
+  }
+
+  .contacts a {
+    font-size: 18px;
+    color: #555;
+    margin: 0 8px;
+    transition: color 0.3s;
+  }
+
+  .contacts a:hover {
+    color: #0077b5;
+  }
+</style>
