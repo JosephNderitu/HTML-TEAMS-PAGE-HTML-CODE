@@ -27,7 +27,7 @@ A simple and elegant **HTML Teams Page** template for showcasing team members in
 ## 📌 Installation & Usage
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/HTML-TEAMS-PAGE.git
+   https://github.com/JosephNderitu/HTML-TEAMS-PAGE-HTML-CODE.git
    ```
 2. **Open `index.html` in your browser.**
 
